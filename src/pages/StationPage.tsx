@@ -63,8 +63,6 @@ export default function StationPage() {
 			temperature: m.resultat,
 		}));
 
-	console.log("METADATA:", metadataData);
-
 	return (
 		<div className="p-4">
 			<div className="flex gap-2 items-center mb-2">
