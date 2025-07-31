@@ -14,7 +14,7 @@ export const fetchChroniqueDetail = async (
 ) => {
 	const response = await axios.get(BASE_URL, {
 		params: {
-			code_entite: code_station,
+			code_station: code_station,
 			size: 800,
 			date_debut_mesure: date_debut,
 			date_fin_mesure: date_fin,
