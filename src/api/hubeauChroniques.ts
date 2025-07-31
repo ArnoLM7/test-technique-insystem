@@ -28,6 +28,7 @@ export const fetchLastResultByStation = async (code_station: string) => {
 		params: {
 			code_station,
 			size: 1,
+			sort: "desc",
 		},
 	});
 
